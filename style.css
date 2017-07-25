@@ -1,4 +1,10 @@
+/* CSS File for CSS 405 Web Dev Course
+USM Summer 2017
+Created by Courtney Kirkham
+Creation Date: 20 July 2017 */
+
 * { 
-	font-family:'Georgia', 'Times', sans-serif;
-	color: #42f4b6;
+	font-family: 'Geneva', 'Arial', sans-serif;
+	background-color: #42f4b6;
+	color:#fff;
   }
