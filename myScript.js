@@ -13,6 +13,11 @@ $(document).ready(function() {
 		$("#formSection").show();
 	});
 	
+	//Function to hide contact form after submission is clicked
+	$("#contactSubmitButton").click(function(){
+		$("#formSection").hide();
+	});
+	
 	//Function to hide resume sections on pageload
 	$(".profSum").hide();
 	$(".presentations").hide();
