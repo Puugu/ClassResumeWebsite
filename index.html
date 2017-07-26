@@ -13,25 +13,50 @@ Creation Date: 25 July 2017
 </head>
 
 <body>
-	<div class="header">
-		<p>Header</p>
-	</div>
-	<div class="navigation">
-		<p>Navigation</p>
-		<p>Home_Link</p>
-		<p>Contact_Link</p> <!--References Webform-->
-		<p>Messages_Link</p>
-		<p>PDF_Link</p>
-	</div>
-	<div class="content">
-		<p>Content</p>
-	</div>
-	<div id="formSection">
-		<p>Web Form</p>
-		<!--Name, E-mail, Address, Message-->
-	</div>
-	<div class="footer">
-		<p>footer</p>
-	</div>
+	<div class="wrapper">
+		<div class="header">
+			<h1>Courtney Kirkham</h1>
+		</div>
+		<div class="sub-wrapper">
+		
+			<div class="leftSide">
+				<div class="navigation">
+					<h4>Navigation</h4>
+					<a href="index.html">Home</a>
+					<a href="#formSection">Contact</a>
+					<a href="#">Messages_Link</a> <!--Messages Link-->
+					<p>PDF_Link</p> <!-- Download pdf-->
+				</div>
+			</div>
+			<div class="rightSide">
+				<div class="photoBanner">
+					<!--image will go here-->
+				</div>
+				<div class="content">
+					<h2>Internship Experience</h2>
+					<h2>Professional Summary</h2>
+					<h2>Presentations</h2>
+					<h2>Community Involvement</h2>
+					<h2>Education</h2>
+					<h2>Technical Skills</h2>
+				</div>
+				<div id="formSection">
+					<h2>Contact Me</h2>
+					<form>
+						Name<br>
+						<input type="text" name="Name" class="inputField name" required><br>
+						E-mail Address<br>
+						<input type="email" name="E-mail" class="inputField email" required><br>
+						Message<br>
+						<input type="textarea" name="message" class="textAreaInput" required><br>
+						<!--Submit Button-->
+						<input type="submit" class="submitButton">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>University of Southern Mississippi | CSS 405 | Summer 2017 | <a href="mailto:therealckirkham@gmail.com"</a></p>
+		</div>
 </body>
 </html>
