@@ -1,10 +1,10 @@
 				<div id="formSection">
 					<h2>Contact Me</h2>
-					<form>
+					<form action="processForm.php" method="post">
 						Name<br>
-						<input type="text" name="Name" class="inputField name" required><br>
+						<input type="text" name="name" class="inputField name" required><br>
 						E-mail Address<br>
-						<input type="email" name="E-mail" class="inputField email" required><br>
+						<input type="email" name="email" class="inputField email" required><br>
 						Message<br>
 						<input type="textarea" name="message" class="textAreaInput" required><br>
 						<!--Submit Button-->

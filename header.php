@@ -35,7 +35,7 @@ Changed to .php: 27 July 2017
 						<li><a href="#education" id="showEd">Education</a></li>
 						<li><a href="#techSkills" id="showTechSkillz">Technical Skills</a></li>
 						<li><a href="#internShipXP" id="showAll">Show All</a></li>
-						<li><a href="#">Messages_Link</a></li> <!--Messages Link-->
+						<li><a href="messages.php">Messages</a></li> <!--Messages Link-->
 						<li><a href="resources/Courtney_Kirkham_Resume.pdf" target="_blank">Download Resume</a></li> <!-- Download pdf-->
 					</ul>
 				</div>
