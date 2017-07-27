@@ -1,48 +1,7 @@
-<!DOCTYPE html>
+<?php
+	include("header.php");
+?>
 
-<!--
-This website is a resume webiste created for CSS 405 Advanced Internet,
-USM Summer 2017
-Created by Courtney Kirkham
-Creation Date: 25 July 2017
--->
-<html>
-<head>
-	<link href="style.css" type="text/css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="myScript.js"></script> <!--Links to my script file-->
-	<title>Courtney Kirkham | Home </title>
-</head>
-
-<body>
-	<div class="wrapper">
-		<div class="header">
-			<h1>Courtney Kirkham</h1>
-		</div>
-		<div class="sub-wrapper">
-		
-			<div class="leftSide">
-				<div class="navigation">
-					<h3>Navigation</h3>
-					<ul class="navText">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#formSection" id="contactMe">Contact</a></li>
-						<li><a href="#internShipXP" id="showInternshipXP">Internship Experience</a></li>
-						<li><a href="#profSum" id="showProfessionalSum">Professional Summary</a></li>
-						<li><a href="#presentations" id="showPresentations">Presentations</a></li>
-						<li><a href="#communityInvolv" id="showCommunityInvolv">Community Involvement</a></li>
-						<li><a href="#education" id="showEd">Education</a></li>
-						<li><a href="#techSkills" id="showTechSkillz">Technical Skills</a></li>
-						<li><a href="#internShipXP" id="showAll">Show All</a></li>
-						<li><a href="#">Messages_Link</a></li> <!--Messages Link-->
-						<li><a href="resources/Courtney_Kirkham_Resume.pdf" target="_blank">Download Resume</a></li> <!-- Download pdf-->
-					</ul>
-				</div>
-			</div>
-			<div class="rightSide">
-				<div class="photoBanner">
-					<img src="images/CourtneyKirkhamPhoto.jpg" alt="Photo of Courtney Kirkham"/>
-				</div>
 				<div class="content">
 					<h2 id="internShipXP" class="internShipXP">Internship Experience</h2>
 						<h4 class="internShipXP">Naval Research Lab</h4>
@@ -173,27 +132,7 @@ Creation Date: 25 July 2017
 								<li>MS Exce</li>
 							</ul>
 				</div>
-				<div id="formSection">
-					<h2>Contact Me</h2>
-					<form>
-						Name<br>
-						<input type="text" name="Name" class="inputField name" required><br>
-						E-mail Address<br>
-						<input type="email" name="E-mail" class="inputField email" required><br>
-						Message<br>
-						<input type="textarea" name="message" class="textAreaInput" required><br>
-						<!--Submit Button-->
-						<input type="submit" id="contactSubmitButton" class="submitButton">
-					</form>
-				</div>
-			</div>
-		</div>
-		<div class="footer">
-			<p>University of Southern Mississippi | CSS 405 | Summer 2017 | <a id="footerEmail" href="mailto:therealckirkham@gmail.com">therealckirkham@gmail.com</a></p>
-		</div>
-	</div>
-</body>
-<!-- Notes for future improvements:
-	Check Dates for MGCCC Honors presentations
-	Link to social media profiles, GitHub, blog-->
-</html>
+
+<?php
+	include("footer.php");
+?>
