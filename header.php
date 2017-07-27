@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!--
-This website is a resume webiste created for CSS 405 Advanced Internet,
+This is the header for a resume webiste created for CSS 405 Advanced Internet,
 USM Summer 2017
 Created by Courtney Kirkham
 Creation Date: 25 July 2017
